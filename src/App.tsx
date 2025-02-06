@@ -2,8 +2,8 @@ import './App.css'
 
 function App() {
   return (
-    <div>
-      <h1>Justine Jay A. Enriquez</h1>
+    <div id="container">
+      <h1 id="name">Justine Jay A. Enriquez</h1>
       <div id="rectangle">CPEITEL</div>
     </div>
   )

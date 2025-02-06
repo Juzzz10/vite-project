@@ -1,19 +1,36 @@
 * {
   box-sizing: border-box;
-  }
-  
-  body {
-    padding: 50px;
-    margin: auto;
-    text-align: center;
-  }
-  
-  #rectangle {
-    margin: auto;
-    width:200px;
-    height:200px;
-    background:pink;
-    text-align: center;
-    border: 3px solid black;
-    padding-top: 80px;
-  }
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh; 
+}
+
+#container {
+  text-align: center;
+  margin-top: 50px; 
+}
+
+#name {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#rectangle {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background: pink;
+  text-align: center;
+  border: 3px solid black;
+  line-height: 200px;
+}
